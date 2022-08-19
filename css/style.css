@@ -2,6 +2,7 @@
 :root {
     --primary: #dc4f72;
     --title-color: #2C3038;
+    --text-color: #5a5a5a;
 }
 
 * {
@@ -204,3 +205,37 @@ button.navbar-toggler.collapsed .icon-expand {
 }
 
 /* end header */
+
+/* carousel */
+.carousel {
+    position: relative;
+    top: 90px;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url("../img/banner.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding: 5rem 1rem 0;
+}
+
+.carousel .content-left h3 {
+    font-size: 50px;
+    line-height: 57.5px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.carousel .content-left p {
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 450px;
+}
+
+/* end carousel */
