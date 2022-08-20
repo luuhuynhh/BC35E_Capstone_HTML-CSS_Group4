@@ -10,4 +10,6 @@ Layout:
 
 Notes:
 - Version bootstrap: https://getbootstrap.com/docs/4.0/getting-started/introduction/
-            
+
+Link deploy:
+- https://luunek.github.io/BC35E_Capstone_HTML-CSS_Group4/
