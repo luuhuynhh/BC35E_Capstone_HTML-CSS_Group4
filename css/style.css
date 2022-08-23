@@ -381,3 +381,44 @@ img.img-curve:hover {
 }
 
 /* end about */
+
+/* number */
+.number {
+    background: var(--light-bg-color);
+}
+
+.number .row {
+    margin: 0 auto;
+}
+
+.number__item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--card-curve);
+    box-shadow: var(--card-box-shadow);
+    transition: 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.number__item h4 {
+    font-size: 16px;
+    line-height: 24.5px;
+    text-transform: capitalize;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.number__item p.counter {
+    font-size: 50px;
+    line-height: 1;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.number__content p {
+    color: var(--text-color);
+}
+
+/* end number */
