@@ -1,1 +1,2 @@
-console.log("Em tạo file không rỗng để push lên github thui");
+// use countup lib
+$('.counter').countUp();
