@@ -41,6 +41,18 @@ button {
     text-transform: uppercase;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+}
+
 .btn-outline-primary {
     color: var(--primary);
     border-color: var(--primary);
@@ -320,3 +332,52 @@ button.navbar-toggler.collapsed .icon-expand {
 }
 
 /* end chooseUs */
+
+/* about */
+.about {
+    background-color: var(--light-bg-color);
+}
+
+.about .sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.about__left h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.about__left p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 24.4px;
+}
+
+.about .row {
+    margin: 0 auto;
+}
+
+img.img-curve {
+    border-radius: var(--card-curve);
+    transition: 0.3s ease-in-out;
+}
+
+img.img-curve:hover {
+    transform: var(--transformY);
+    transition: 0.3s ease-in-out;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+/* end about */
