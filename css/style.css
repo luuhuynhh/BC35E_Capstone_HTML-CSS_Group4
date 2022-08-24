@@ -455,3 +455,39 @@ img.img-curve:hover {
 }
 
 /* end banner */
+
+/* move Top */
+.movetop {
+    position: fixed;
+    bottom: 75px;
+    right: 0px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    background: var(--primary);
+    padding: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+    text-align: center;
+    visibility: hidden;
+}
+
+.movetop span.fa {
+    line-height: 45px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.movetop.cd-top--is-visible {
+    visibility: visible;
+    opacity: .7;
+}
+
+.movetop.cd-top--fade-out {
+    opacity: .7;
+}
+
+/* end move Top */
