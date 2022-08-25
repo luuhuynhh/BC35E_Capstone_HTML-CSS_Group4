@@ -1018,9 +1018,14 @@ h2.resp-tab-title:last-child {
     flex-wrap: wrap;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .footer .below-section {
-        justify-content: center;
+        display: block !important;
+    }
+
+    .footer .below-section .text-center p,
+    .footer .below-section .social {
+        text-align: center;
     }
 }
 
