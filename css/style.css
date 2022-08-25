@@ -72,6 +72,10 @@ button {
     margin-left: auto;
 }
 
+.row {
+    margin: 0 auto;
+}
+
 /* end global */
 
 /* header */
@@ -921,3 +925,132 @@ h2.resp-tab-title:last-child {
 }
 
 /* END GENERAL  */
+
+/* footer */
+.footer__content {
+    background: var(--light-bg-color);
+}
+
+.footer .row {
+    margin: 0 auto;
+}
+
+.footer__content h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.footer__navs li {
+    display: block;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer__navs a {
+    color: #656f7b;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.footer .end-column {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: var(--card-curve);
+    box-shadow: var(--card-box-shadow);
+}
+
+.footer .end-column h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer .end-column form {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.footer input[type="email"] {
+    background: var(--light-bg-color);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    width: 78%;
+    color: var(--title-color);
+    font-weight: 600;
+    border-radius: var(--card-curve);
+}
+
+.footer button {
+    text-align: center;
+    background: var(--primary);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 20%;
+    color: #fff;
+    border-radius: var(--card-curve);
+}
+
+.footer__content p {
+    line-height: 22px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.footer .below-section {
+    border-top: 1px solid #eaeaea;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .footer .below-section {
+        justify-content: center;
+    }
+}
+
+.footer .social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer .below-section a.w3layout {
+    color: var(--text-color);
+}
+
+.text-lg-left {
+    text-align: left !important;
+}
+
+.footer .social li a {
+    color: var(--title-color);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer .social li:hover a {
+    color: var(--primary);
+    transition: 0.3s ease;
+}
+
+
+/* end footer */
