@@ -259,10 +259,77 @@ a.dropdown-item:hover:before {
 
 /* end header */
 
+/* toggle theme */
+.theme--dark {
+    background-color: black;
+}
+
+.mobile-position,
+.navigation {
+    width: 60px;
+}
+
+.mobile-position .navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#btnSwitchTheme {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#btnSwitchTheme i {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+#btnSwitchTheme i.fa-sun {
+    display: none;
+}
+
+.theme--dark #btnSwitchTheme i.fa-sun {
+    display: block;
+}
+
+.theme--dark #btnSwitchTheme i.fa-moon {
+    display: none;
+}
+
+#btnSwitchTheme i {
+    color: var(--primary);
+}
+
+#btnSwitchTheme i.fa-moon {
+    transform: rotate(-35deg);
+}
+
+
+
+@media (max-width: 991px) {
+
+    .mobile-position,
+    .navigation {
+        width: 50px;
+        position: absolute;
+        top: 7px;
+        right: 37px;
+    }
+}
+
+/* end toggle theme */
+
 /* carousel */
 .carousel {
     position: relative;
-    top: 90px;
+    top: 82px;
     left: 0;
     z-index: 1;
     overflow: hidden;
@@ -1064,6 +1131,10 @@ h2.resp-tab-title:last-child {
 
 .footer .below-section a.w3layout {
     color: var(--text-color);
+}
+
+.footer .below-section a.w3layout:hover {
+    color: var(--primary);
 }
 
 .text-lg-left {
