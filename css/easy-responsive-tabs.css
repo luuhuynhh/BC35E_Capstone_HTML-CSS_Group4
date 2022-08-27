@@ -5,8 +5,7 @@ body {
     font-family: 'Segoe UI';
 }
 
-ul.resp-tabs-list,
-p {
+ul.resp-tabs-list, p {
     margin: 0px;
     padding: 0px;
 }
@@ -15,7 +14,6 @@ p {
     font-weight: 700;
     font-size: 22px;
     padding: 15px;
-    display: inline-block;
     margin: 0;
     list-style: none;
     cursor: pointer;
@@ -25,7 +23,6 @@ p {
     color: #4E5B61;
     background: #fff !important;
     border-bottom: 3px solid #eee;
-    
 }
 
 .resp-tabs-list li img {
@@ -39,30 +36,21 @@ p {
 }
 
 h2.resp-accordion {
-    font-size: 20px;
-    border: 1px solid #c1c1c1;
-    border-top: 0px solid #c1c1c1;
-    margin: 0px;
-    padding: 10px 15px;
     cursor: pointer;
     padding: 5px;
     display: none;
-
 }
 
 .resp-tab-content {
     display: none;
     padding: 15px;
-    border-top-color: #5AB1D0;
 }
 
 .resp-tab-active {
-    border: 1px solid #5AB1D0 !important;
     border-bottom: none;
     margin-bottom: -1px !important;
-    padding: 12px 14px 14px 14px !important;
-    border-top: 4px solid #5AB1D0 !important;
-    border-bottom: 0px #fff solid !important;
+    border-bottom: 3px var(--primary) solid !important;
+    color: var(--primary) !important;
 }
 
 .resp-tab-active {
@@ -70,18 +58,16 @@ h2.resp-accordion {
     background-color: #fff;
 }
 
-.resp-content-active,
-.resp-accordion-active {
+.resp-content-active, .resp-accordion-active {
     display: block;
 }
 
 .resp-tab-content {
-    border: 1px solid #c1c1c1;
     border-top-color: #5AB1D0;
 }
 
 h2.resp-accordion {
-    font-size: 13px;
+    font-size: 20px;
     border: 1px solid #c1c1c1;
     border-top: 0px solid #c1c1c1;
     margin: 0px;
@@ -162,6 +148,7 @@ h2.resp-tab-active span.resp-arrow {
 h2.resp-tab-active {
     background: #DBDBDB;
     border-bottom: 3px var(--primary) solid !important;
+    /* !important;*/
 }
 
 .resp-easy-accordion h2.resp-accordion {
@@ -231,8 +218,13 @@ h2.resp-accordion:first-child {
         border-bottom: 1px solid #c1c1c1 !important;
     }
 }
+
 @media screen and (max-width: 480px) {
     .resp-tab-content {
-      padding: 0 15px; }
+        padding: 0 15px;
+    }
+
     .resp-arrow {
-      margin-top: 3px; } }
+        margin-top: 3px;
+    }
+}
