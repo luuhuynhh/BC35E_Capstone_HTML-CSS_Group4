@@ -17,6 +17,10 @@
 
     <!-- link css easyResponsiveTabs -->
     <link rel="stylesheet" href="./css/easy-responsive-tabs.css">
+
+    <!-- link css owl.caroulsel  -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
    
     
 
@@ -229,7 +233,7 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="grids5-info">
               <a href="#" class="d-block zoom">
-                <img src="./img/b3.jpg" alt="" class="img-fluid news-image" />
+                <img src="./img/b7.jpg" alt="" class="img-fluid news-image" />
 
                 <p class="date">15 Apr, 2020</p>
               </a>
@@ -246,7 +250,7 @@
           <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-5">
             <div class="grids5-info">
               <a href="#" class="d-block zoom">
-                <img src="./img/b7.jpg" alt="" class="img-fluid news-image" />
+                <img src="./img/b3.jpg" alt="" class="img-fluid news-image" />
 
                 <p class="date">25 Jun, 2020</p>
               </a>
@@ -425,6 +429,88 @@
   </div>
 </section>
 
+<!-- TESTIMONIALS vu-->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials__content py-5">
+    <div class="container py-lg-3">
+      <div class="title text-center mx-auto">
+        <h6 class="sub-title">Our Clients Testimonials</h6>
+        <h3>What People Say </h3>
+        <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Nulla mollis dapibus nunc, ut rhoncus
+          turpis sodales quis. Integer sit amet mattis quam.</p>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12 mx-auto pb-5">
+          <div class="owl-two owl-carousel owl-theme">
+            <div class="item">
+              <div class="slider-info mt-lg-4 mt-3">
+                <div class="img-circle">
+                  <img src="./img/team3.jpeg" class="img-fluid testimonial-img" alt="client image">
+                </div>
+                <div class="message">
+                  <span class="fa fa-quote-left" aria-hidden="true"></span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                  <div class="name mt-4">
+                    <h4>Isabella Mia</h4>
+                    <p>Company name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-info mt-lg-4 mt-3">
+                <div class="img-circle">
+                  <img src="./img/team4.jpeg" class="img-fluid testimonial-img" alt="client image">
+                </div>
+                <div class="message">
+                  <span class="fa fa-quote-left" aria-hidden="true"></span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                  <div class="name mt-4">
+                    <h4>Benjamin Lucas</h4>
+                    <p>Company name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-info mt-lg-4 mt-3">
+                <div class="img-circle">
+                  <img src="./img/team5.jpeg" class="img-fluid testimonial-img" alt="client image">
+                </div>
+                <div class="message">
+                  <span class="fa fa-quote-left" aria-hidden="true"></span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                  <div class="name mt-4">
+                    <h4>Oliver Bradley</h4>
+                    <p>Company name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-info mt-lg-4 mt-3">
+                <div class="img-circle">
+                  <img src="./img/team6.jpeg" class="img-fluid testimonial-img" alt="client image">
+                </div>
+                <div class="message">
+                  <span class="fa fa-quote-left" aria-hidden="true"></span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                  <div class="name mt-4">
+                    <h4>William James</h4>
+                    <p>Company name</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 
@@ -554,6 +640,41 @@
                }
           });
       });
+  </script>
+
+  <!-- owl-carousel  -->
+  <script src="./js/owl.carousel.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.owl-two').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          667: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: false
+          }
+        }
+      })
+    })
   </script>
 
 
