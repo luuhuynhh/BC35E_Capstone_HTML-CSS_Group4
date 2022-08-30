@@ -1085,6 +1085,15 @@ img.img-curve:hover {
   .testimonials .owl-two.owl-theme .owl-nav [class*=owl-next] {
     display: none; }
 
+    /* END TESTIMONIALS */
+
+    /* COMMUNNITY */
+    .community {
+        background-color: white;
+    }
+
+
+
 
 
 
