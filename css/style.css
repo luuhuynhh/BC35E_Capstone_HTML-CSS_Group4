@@ -260,8 +260,17 @@ a.dropdown-item:hover:before {
 /* end header */
 
 /* toggle theme */
-.theme--dark {
+.theme--dark#body section, .theme--dark#body header, .theme--dark#body .footer__content{
     background-color: black;
+}
+.theme--dark#body header{
+    --title-color: white;
+}
+.theme--dark#body .carousel{
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0.92)), url("../img/banner.jpg");
+}
+.theme--dark#body .testimonials__content{
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0.92)), url(../img/b2.jpg);
 }
 
 .mobile-position,
@@ -970,11 +979,11 @@ img.img-curve:hover {
 }
 
 @media screen and (max-width: 480px) {
-    .w3l-products .products-content {
+    .project .products-content {
         margin-bottom: 30px;
     }
 
-    .w3l-products .products-content h3 {
+    .project .products-content h3 {
         font-size: 24px;
         line-height: 30px;
     }
