@@ -1023,7 +1023,7 @@ img.img-curve:hover {
     margin: 0 auto;
     padding: 2rem;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto;
     grid-gap: 50px;
     background-color: #fff;
     border-radius: var(--card-curve);
