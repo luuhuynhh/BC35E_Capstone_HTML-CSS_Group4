@@ -13,3 +13,6 @@ Notes:
 
 Link deploy:
 - https://luunek.github.io/BC35E_Capstone_HTML-CSS_Group4/
+
+Link demo youtube:
+- https://www.youtube.com/watch?v=xvQLjOBoUUg
